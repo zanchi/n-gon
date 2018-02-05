@@ -11,6 +11,9 @@
  "main": "index.js",
  "license": "MIT",
  "author": "Brandon Semilla (https://github.com/semibran)",
+ "contributors": [
+   "Eric Zanchi (https://github.com/zanchi)"
+ ],
  "repository": {
   "type": "git",
   "url": "https://github.com/semibran/n-gon.git"

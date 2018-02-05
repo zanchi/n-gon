@@ -3,21 +3,21 @@
 
 ![stop sign](stop.png "hmmm")
 
-## install
+## Install
 ```sh
-npm install n-gon
+npm install @zanchi/n-gon
 ```
 
-## usage
-A "polygon" is just an array of `{ x, y }` points, which allows you to `map` it to a new size and position.
-```js
-const gon = require('n-gon')
+## Usage
+A "polygon" is just an array of points
+```javascript
+const { ngon, ngonVec } = require('@zanchi/n-gon');
 
-var polygon = gon(7)
-  .map(point => ({
-    x: point.x * size + offset.x,
-    y: point.y * size + offset.y
-  }))
+const triangle = ngon(3, 10 /* optional size param */)
+// triangle[0] === {x: 10, y: 0}
+
+const square = ngonVec(4, 5);
+//square[0] === [5, 0]
 ```
 
 ## license
