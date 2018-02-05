@@ -1,6 +1,6 @@
 function ngon(n, size = 1) {
   const polygon = [];
-  for (var i = n; i--;) {
+  for (let i = n; i--; ) {
     polygon[i] = {
       x: Math.cos(2*Math.PI * i/n) * size,
       y: Math.sin(2*Math.PI * i/n) * size
