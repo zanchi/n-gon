@@ -1,5 +1,5 @@
 {
- "name": "n-gon",
+ "name": "@zanchi/n-gon",
  "version": "0.1.0",
  "description": "Create regular polygons with n sides",
  "keywords": [
